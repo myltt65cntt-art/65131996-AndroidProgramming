@@ -26,3 +26,4 @@ rootProject.name = "AppCong"
 include(":app")
 include(":app:hellowoed")
 include(":app:appcong")
+include(":app:vd1")
