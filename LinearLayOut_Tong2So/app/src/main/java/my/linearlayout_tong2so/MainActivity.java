@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         TimDieuKhien();
-
     }
     void TimDieuKhien(){
         editTextSo1= (EditText) findViewById(R.id.edtSo1);
