@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "my.usingrecyclerview.app-mergeDebugResources-34:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "my.usingrecyclerview.app-mergeDebugResources-33:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sakura\\.gradle\\caches\\9.3.1\\transforms\\02bc21f1fc3574b2e2c7db0eec45f621\\workspace\\transformed\\material-1.13.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\sakura\\.gradle\\caches\\9.3.1\\transforms\\2032307b6298eef8cb9904b350bce9e6\\workspace\\transformed\\material-1.13.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
