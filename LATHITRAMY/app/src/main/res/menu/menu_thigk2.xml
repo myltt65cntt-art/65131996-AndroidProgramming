@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-
-
     <item
         android:id="@+id/navigation_welcome"
-        android:icon="@android:drawable/ic_menu_crop"
+        android:icon="@android:drawable/star_big_on"
         android:title="Welcome" />
 
     <item
         android:id="@+id/navigation_cau1"
-        android:icon="@android:drawable/star_on"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
         android:title="Cau 1" />
 
     <item
@@ -19,10 +16,10 @@
         android:title="Cau 2" />
     <item
         android:id="@+id/navigation_cau3"
-        android:icon="@android:drawable/checkbox_on_background"
+        android:icon="@android:drawable/ic_menu_edit"
         android:title="Cau 3" />
     <item
         android:id="@+id/navigation_cau4"
-        android:icon="@android:drawable/ic_lock_idle_charging"
+        android:icon="@android:drawable/ic_menu_myplaces"
         android:title="Cau 4" />
 </menu>
