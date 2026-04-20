@@ -31,22 +31,31 @@ public class Cau2Fragment extends Fragment {
         List.add(new LandScape("lb","Lăng Bác",
                 "Lăng Bác"));
         List.add(new LandScape("cchn","Tháp Hà Nội",
-                "Lăng Bác"));
-
+                ""));
+        List.add(new LandScape("cdh","CUNG ĐÌNH HUẾ",
+                ""));
+        List.add(new LandScape("bnt","Biển Nha Trang",
+                ""));
+        List.add(new LandScape("cdh","Hồ Gươm",
+                ""));
+        List.add(new LandScape("cdh","Chùa Một Cột",
+                ""));
+        List.add(new LandScape("cdh","CUNG ĐÌNH HUẾ",
+                ""));
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View viewCau3=  inflater.inflate(R.layout.fragment_cau2, container, false);
-        recyclerViewLandScape= viewCau3.findViewById(R.id.ryCau2);
-        RecyclerView.LayoutManager layoutLinear= new LinearLayoutManager(viewCau3.getContext());
+        View viewCau2=  inflater.inflate(R.layout.fragment_cau2, container, false);
+        recyclerViewLandScape= viewCau2.findViewById(R.id.ryCau2);
+        RecyclerView.LayoutManager layoutLinear= new LinearLayoutManager(viewCau2.getContext());
         recyclerViewLandScape.setLayoutManager(layoutLinear);
 
-        adapter= new LandScapeAdapter(viewCau3.getContext(),List);
+        adapter= new LandScapeAdapter(viewCau2.getContext(),List);
         recyclerViewLandScape.setAdapter(adapter);
 
-        return viewCau3;
+        return viewCau2;
     }
 }
