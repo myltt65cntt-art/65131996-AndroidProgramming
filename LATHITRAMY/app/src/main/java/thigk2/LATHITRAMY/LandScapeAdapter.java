@@ -16,6 +16,22 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.zip.Inflater;
 
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.zip.Inflater;
+
 public class LandScapeAdapter extends RecyclerView.Adapter< LandScapeAdapter.ItemLandHolder> {
     Context context;
     ArrayList<LandScape> lstData;

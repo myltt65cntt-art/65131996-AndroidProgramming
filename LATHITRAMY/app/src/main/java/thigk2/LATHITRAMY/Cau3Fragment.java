@@ -35,6 +35,9 @@ public class Cau3Fragment extends Fragment {
                 "Lăng Bác"));
         List.add(new LandScape("cchn", "Tháp Hà Nội",
                 "Lăng Bác"));
+        List.add(new LandScape("cd","CUNG ĐÌNH HUẾ",
+                ""));
+
 
     }
 
@@ -43,7 +46,7 @@ public class Cau3Fragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View viewCau3 = inflater.inflate(R.layout.fragment_cau3, container, false);
-        recyclerViewLandScape = viewCau3.findViewById(R.id.ryCau3);
+        recyclerViewLandScape = viewCau3.findViewById(R.id.ryCau4);
         RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(viewCau3.getContext());
         recyclerViewLandScape.setLayoutManager(layoutLinear);
 

@@ -8,7 +8,7 @@
     tools:context=".Cau3Fragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/ryCau2"
+        android:id="@+id/ryCau4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent"
