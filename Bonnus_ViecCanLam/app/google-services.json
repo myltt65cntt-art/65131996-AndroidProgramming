@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "371234445826",
+    "project_id": "bonnusvieccanlam",
+    "storage_bucket": "bonnusvieccanlam.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371234445826:android:448c2d7352e213a659651b",
+        "android_client_info": {
+          "package_name": "my.bonnus_vieccanlam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvnyvtl1vpiAjI4Np_NzvmRGpMluzoz8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
