@@ -6,17 +6,25 @@
     android:orientation="vertical"
     android:padding="20dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viec Can Lam"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"/>
+
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"/>
+        android:hint="Nhap email"/>
 
     <EditText
         android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="Nhap password"
         android:inputType="textPassword"/>
 
     <Button
@@ -30,5 +38,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Dang Nhap"/>
+
+    <EditText
+        android:id="@+id/edtTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap viec can lam"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Them Viec"/>
+
+    <TextView
+        android:id="@+id/txtTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sach cong viec"
+        android:textSize="18sp"
+        android:paddingTop="20dp"/>
 
 </LinearLayout>
